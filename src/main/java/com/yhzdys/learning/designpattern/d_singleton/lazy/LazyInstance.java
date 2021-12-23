@@ -5,6 +5,9 @@ import com.yhzdys.learning.designpattern.d_singleton.SingleObject;
 public class LazyInstance {
     private static volatile SingleObject _instance = null;
 
+    private LazyInstance() {
+    }
+
     public static SingleObject getInstance() {
         if (_instance != null) return _instance;
 
@@ -13,8 +16,5 @@ public class LazyInstance {
             _instance = new SingleObject();
         }
         return _instance;
-    }
-
-    private LazyInstance() {
     }
 }

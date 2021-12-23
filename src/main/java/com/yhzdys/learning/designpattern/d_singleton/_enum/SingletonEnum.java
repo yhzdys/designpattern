@@ -1,4 +1,4 @@
-package com.yhzdys.learning.designpattern.d_singleton.meijv;
+package com.yhzdys.learning.designpattern.d_singleton._enum;
 
 public enum SingletonEnum {
     INSTANCE;

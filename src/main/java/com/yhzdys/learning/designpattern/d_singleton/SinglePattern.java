@@ -1,8 +1,8 @@
 package com.yhzdys.learning.designpattern.d_singleton;
 
+import com.yhzdys.learning.designpattern.d_singleton._enum.SingletonEnum;
 import com.yhzdys.learning.designpattern.d_singleton.hungry.HungryInstance;
 import com.yhzdys.learning.designpattern.d_singleton.lazy.LazyInstance;
-import com.yhzdys.learning.designpattern.d_singleton.meijv.SingletonEnum;
 
 /**
  * 某个类只有一个实例，且自行实例化并向整个系统提供此实例

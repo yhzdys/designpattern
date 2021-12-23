@@ -11,6 +11,14 @@ import java.util.List;
 public class IPhoneX implements ProtoType {
     protected List<String> parts;
 
+    public IPhoneX() {
+        this.parts = new ArrayList<>();
+    }
+
+    public IPhoneX(List<String> parts) {
+        this.parts = parts;
+    }
+
     public void design() {
         parts.add("刘海");
         parts.add("全面屏");
@@ -21,13 +29,5 @@ public class IPhoneX implements ProtoType {
     public ProtoType copy() {
         ArrayList<String> parts = new ArrayList<>(this.parts);
         return new IPhoneX(parts);
-    }
-
-    public IPhoneX() {
-        this.parts = new ArrayList<>();
-    }
-
-    public IPhoneX(List<String> parts) {
-        this.parts = parts;
     }
 }
