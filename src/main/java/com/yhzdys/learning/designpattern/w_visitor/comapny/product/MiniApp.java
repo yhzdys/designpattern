@@ -3,7 +3,7 @@ package com.yhzdys.learning.designpattern.w_visitor.comapny.product;
 import com.yhzdys.learning.designpattern.w_visitor.comapny.Programmer;
 import com.yhzdys.learning.designpattern.w_visitor.comapny.Tester;
 
-public class MiniApp implements Visitor{
+public class MiniApp implements Visitor {
     @Override
     public void visit(Programmer programmer) {
         System.out.println("programmer develop mini app");

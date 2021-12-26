@@ -5,6 +5,7 @@ import com.yhzdys.learning.designpattern.k_flyweight.gobang.PieceBox;
 import com.yhzdys.learning.designpattern.k_flyweight.gobang.piece.Piece;
 
 /**
+ * 享元模式
  * 允许使用对象共享来有效地支持大量细粒度对象
  */
 public class FlyweightPattern {
