@@ -13,9 +13,13 @@ public class TemplateMethodPattern {
         WechatPay wechatPay = new WechatPay();
         AliPay aliPay = new AliPay();
 
+        wechatPay.calculateFee();
         wechatPay.pay();
+        wechatPay.finish();
         System.out.println("==============================");
+        aliPay.calculateFee();
         aliPay.pay();
+        aliPay.finish();
     }
 
 }
